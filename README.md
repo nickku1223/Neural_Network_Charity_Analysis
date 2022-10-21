@@ -52,3 +52,10 @@ I wasn't able to achieve with the performance of 75% with the models above.
 
 - **What steps did you take to try and increase model performance?**  
 After the initial model, I tried to removed the "STATUS" and "SPECIAL_CONSIDERATION" columns. Adding neurons, layers and changing the activation function for the models to try to increase model performance.
+
+# Summary
+The overall accuracy for the models I used is around 72%, the performance of the models didn't have much imporvement with adding neurons, layers. Different activation functions will also have different impact, so one method could be keep trying to find the optimal activation function for the dataset, adding more neurons and layers to have a more complex model to see if it could help with improving the model's performance.
+
+The other direction we can take is to work on the input data, find out further information about the columns to determine if we should drop it, binned the variables or other methods if needed.
+
+Since I've tried adding more neurons and layers but still not seeing any significant performance improvement, turn out focus on the input featuers might be have a good direction regarding improving the models' performance.
